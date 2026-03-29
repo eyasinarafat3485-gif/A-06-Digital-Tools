@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Builder",
+    "description": "Create simple and clean resumes with basic templates.",
+    "price": 5,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10+ templates", "Basic customization", "Export to PDF"],
+    "icon": "FaFileAlt",
+    "image": "https://picsum.photos/300/200?random=1"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Kit",
+    "description": "Advanced resume builder with ATS optimization.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
+    "icon": "FaUserTie",
+    "image": "https://picsum.photos/300/200?random=2"
+  },
+  {
+    "id": 3,
+    "name": "Monthly Career Tools",
+    "description": "Access all tools monthly for career growth.",
+    "price": 10,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Unlimited resumes", "LinkedIn optimization", "Job tracking", "Export to PDF"],
+    "icon": "FaChartLine",
+    "image": "https://picsum.photos/300/200?random=3"
+  },
+  {
+    "id": 4,
+    "name": "Yearly Career Pro",
+    "description": "Full access to all features for a year.",
+    "price": 90,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Unlimited templates", "ATS optimization", "Priority support", "Portfolio builder"],
+    "icon": "FaCrown",
+    "image": "https://picsum.photos/300/200?random=4"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Builder",
+    "description": "Create and showcase your personal portfolio.",
+    "price": 20,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Custom domains", "Responsive design", "Project showcase", "SEO optimization"],
+    "icon": "FaGlobe",
+    "image": "https://picsum.photos/300/200?random=5"
+  },
+  {
+    "id": 6,
+    "name": "Job Hunter Pack",
+    "description": "Tools designed to help you land your dream job.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Job alerts", "Resume tips", "Interview prep", "Cover letter builder"],
+    "icon": "FaBriefcase",
+    "image": "https://picsum.photos/300/200?random=6"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Toolkit",
+    "description": "Perfect tools for freelancers to grow their business.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Invoice generator", "Client management", "Proposal templates", "Analytics dashboard"],
+    "icon": "FaTools",
+    "image": "https://picsum.photos/300/200?random=7"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Bundle",
+    "description": "All-in-one solution for job seekers and professionals.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["All features included", "Premium templates", "Career coaching", "Priority support"],
+    "icon": "FaRocket",
+    "image": "https://picsum.photos/300/200?random=8"
+  }
+]

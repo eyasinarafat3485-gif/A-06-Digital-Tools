@@ -25,6 +25,7 @@ const Navbar = () => {
                 {/* 3. Action Buttons */}
                 <div className="flex items-center gap-4">
                     <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200">
+                        
                         <CgShoppingCart size={20} />
                         {/* <LuShoppingCart className="text-red-500" size={22} /> */}
                     </button>
