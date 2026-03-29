@@ -1,98 +1,130 @@
 [
   {
     "id": 1,
-    "name": "Starter Resume Builder",
-    "description": "Create simple and clean resumes with basic templates.",
-    "price": 5,
-    "period": "one-time",
-    "tag": "new",
-    "tagType": "new",
-    "features": ["10+ templates", "Basic customization", "Export to PDF"],
-    "icon": "FaFileAlt",
-    "image": "https://picsum.photos/300/200?random=1"
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited AI generations",
+      "50+ writing templates",
+      "Grammar checker"
+    ],
+    "icon": "FaPenNib",
+    "image": "https://picsum.photos/300/200?random=11"
   },
   {
     "id": 2,
-    "name": "Pro Resume Kit",
-    "description": "Advanced resume builder with ATS optimization.",
-    "price": 15,
+    "name": "Design Templates Pack",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 49,
     "period": "one-time",
-    "tag": "popular",
+    "tag": "Popular",
     "tagType": "popular",
-    "features": ["100+ templates", "ATS optimization", "Export to PDF", "Cover letter builder"],
-    "icon": "FaUserTie",
-    "image": "https://picsum.photos/300/200?random=2"
+    "features": [
+      "2000+ templates",
+      "Monthly updates",
+      "Commercial license"
+    ],
+    "icon": "FaPencilRuler",
+    "image": "https://picsum.photos/300/200?random=12"
   },
   {
     "id": 3,
-    "name": "Monthly Career Tools",
-    "description": "Access all tools monthly for career growth.",
-    "price": 10,
+    "name": "Premium Stock Assets",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 19,
     "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": ["Unlimited resumes", "LinkedIn optimization", "Job tracking", "Export to PDF"],
-    "icon": "FaChartLine",
-    "image": "https://picsum.photos/300/200?random=3"
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "10M+ assets",
+      "Commercial use",
+      "No attribution"
+    ],
+    "icon": "FaCamera",
+    "image": "https://picsum.photos/300/200?random=13"
   },
   {
     "id": 4,
-    "name": "Yearly Career Pro",
-    "description": "Full access to all features for a year.",
-    "price": 90,
-    "period": "yearly",
-    "tag": "popular",
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "Popular",
     "tagType": "popular",
-    "features": ["Unlimited templates", "ATS optimization", "Priority support", "Portfolio builder"],
-    "icon": "FaCrown",
-    "image": "https://picsum.photos/300/200?random=4"
+    "features": [
+      "50+ automations",
+      "API access",
+      "Custom workflows"
+    ],
+    "icon": "FaCogs",
+    "image": "https://picsum.photos/300/200?random=14"
   },
   {
     "id": 5,
-    "name": "Portfolio Builder",
-    "description": "Create and showcase your personal portfolio.",
-    "price": 20,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters that land interviews.",
+    "price": 15,
     "period": "one-time",
-    "tag": "new",
+    "tag": "New",
     "tagType": "new",
-    "features": ["Custom domains", "Responsive design", "Project showcase", "SEO optimization"],
-    "icon": "FaGlobe",
-    "image": "https://picsum.photos/300/200?random=5"
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF"
+    ],
+    "icon": "FaFileAlt",
+    "image": "https://picsum.photos/300/200?random=15"
   },
   {
     "id": 6,
-    "name": "Job Hunter Pack",
-    "description": "Tools designed to help you land your dream job.",
-    "price": 12,
+    "name": "Social Media Content Kit",
+    "description": "Complete toolkit for creating engaging social media content across all platforms.",
+    "price": 39,
     "period": "monthly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": ["Job alerts", "Resume tips", "Interview prep", "Cover letter builder"],
-    "icon": "FaBriefcase",
-    "image": "https://picsum.photos/300/200?random=6"
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "5000+ assets",
+      "Scheduler included",
+      "Analytics dashboard"
+    ],
+    "icon": "FaShareAlt",
+    "image": "https://picsum.photos/300/200?random=16"
   },
   {
     "id": 7,
-    "name": "Freelancer Toolkit",
-    "description": "Perfect tools for freelancers to grow their business.",
+    "name": "Email Marketing Suite",
+    "description": "Build, send, and optimize email campaigns with powerful automation tools.",
     "price": 25,
-    "period": "one-time",
-    "tag": "popular",
+    "period": "monthly",
+    "tag": "Popular",
     "tagType": "popular",
-    "features": ["Invoice generator", "Client management", "Proposal templates", "Analytics dashboard"],
-    "icon": "FaTools",
-    "image": "https://picsum.photos/300/200?random=7"
+    "features": [
+      "Email templates",
+      "Automation flows",
+      "Performance tracking"
+    ],
+    "icon": "FaEnvelope",
+    "image": "https://picsum.photos/300/200?random=17"
   },
   {
     "id": 8,
-    "name": "Ultimate Career Bundle",
-    "description": "All-in-one solution for job seekers and professionals.",
-    "price": 120,
-    "period": "yearly",
-    "tag": "best seller",
-    "tagType": "best seller",
-    "features": ["All features included", "Premium templates", "Career coaching", "Priority support"],
-    "icon": "FaRocket",
-    "image": "https://picsum.photos/300/200?random=8"
+    "name": "SEO Optimization Toolkit",
+    "description": "Boost your website ranking with advanced SEO tools and insights.",
+    "price": 59,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Keyword research",
+      "Site audit",
+      "Competitor analysis"
+    ],
+    "icon": "FaSearch",
+    "image": "https://picsum.photos/300/200?random=18"
   }
 ]

@@ -3,7 +3,7 @@ import React from 'react';
 const Banner = () => {
     return (
         <section className="min-h-[80vh] flex items-center justify-center bg-white px-6 md:px-16  py-14">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+            <div className=" mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center justify-between">
 
                 <div className="space-y-6">
                     <div className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-blue-50 border border-blue-100">
@@ -27,7 +27,7 @@ const Banner = () => {
                     </div>
                 </div>
 
-                <div className="flex justify-center">
+                <div className="flex ">
                     <img className="w-full h-120 object-contain" src="banner.png" alt="" />
                 </div>
 
