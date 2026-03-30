@@ -4,12 +4,16 @@ import { FaRegCheckCircle } from 'react-icons/fa';
 
 const ProductsCart = ({product}) => {
     const [isBuy, setIsBuy] = useState(false)
+
+    const handleIsBuy= ()=>{
+        setIsBuy(true)
+    }
     return (
         <div className='border-2 border-gray-300 rounded-2xl p-5 space-y-3'>
                     
      
                     <div className='flex justify-between'>
-                        <img src="" alt="" />
+                        {/* <img src="" alt="" /> */}
                          <span className=" top-6 right-6  text-orange-700 bg-orange-100 text-xs font-bold px-3 py-1 rounded-full">{product.tag} </span>
                     </div>
                     <h3 className='text-2xl font-bold'>{product.name}</h3>
@@ -29,7 +33,7 @@ const ProductsCart = ({product}) => {
                         </ul>
                 
                     </div>
-                    <button onClick={()=> setIsBuy(true)} className='btn btn-primary bg-[#8B2CFF] hover:bg-[#7006f1] w-full'>
+                    <button onClick={handleIsBuy} className='btn btn-primary bg-[#8B2CFF] hover:bg-[#7006f1] w-full'>
                         {isBuy === true ? "Buying" : "Buy Now"}
                     </button>
                 </div>

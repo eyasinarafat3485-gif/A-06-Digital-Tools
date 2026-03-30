@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
+import Cart from './components/Cart/Cart'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import PremiumDigi from './components/PremiumDigi/PremiumDigi'
@@ -9,28 +11,37 @@ import Steps from './components/Steps/Steps'
 import Transform from './components/Transform/Transform'
 import Transparent from './components/Transparent/Transparent'
 
-const getProducts= async ()=>{
-  const res= await fetch("/data.json")
+const getProducts = async () => {
+  const res = await fetch("/data.json")
   return res.json()
 }
-const productsPromise= getProducts()
+const productsPromise = getProducts()
 
 function App() {
-  
+  const [activeTab, setActiveTab]= useState("products");
+  console.log(activeTab)
 
   return (
     <>
-     
-     <Navbar></Navbar>
-     <Banner></Banner>
-     <StatsSection></StatsSection>
-     <PremiumDigi></PremiumDigi>
 
-     <Products key={Products.id} productsPromise={productsPromise}></Products>
-     <Steps></Steps>
-     <Transparent></Transparent>
-     <Transform></Transform>
-     <Footer></Footer>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <StatsSection></StatsSection>
+      <PremiumDigi></PremiumDigi>
+      {/* name of each tab group should be unique */}
+      <div className="tabs tabs-box justify-center bg-transparent mb-15">
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products" defaultChecked onClick={() => setActiveTab("products")}/>
+
+        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Cart" onClick={() => setActiveTab("cart")} />
+        
+      </div>
+      {activeTab === "cart" && <Cart></Cart>}
+
+      {activeTab === "products" && <Products key={Products.id} productsPromise={productsPromise}></Products>}
+      <Steps></Steps>
+      <Transparent></Transparent>
+      <Transform></Transform>
+      <Footer></Footer>
     </>
   )
 }

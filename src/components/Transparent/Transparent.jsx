@@ -28,7 +28,7 @@ const Transparent = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50 px-4">
+    <section className="py-15 px-4">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold text-slate-900 mb-4">Simple, Transparent Pricing</h2>
         <p className="text-gray-500">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
@@ -39,10 +39,10 @@ const Transparent = () => {
         {plans.map((plan, index) => (
           <div 
             key={index} 
-            className={`relative p-8 rounded-3xl border transition-all duration-300 ${
+            className={`relative p-8 rounded-3xl border-2 transition-all duration-300 ${
               plan.isPopular 
               ? 'bg-[#8B2CF5] text-white scale-105 shadow-xl border-transparent z-10' 
-              : 'bg-white text-slate-900 border-gray-100'
+              : 'bg-white text-slate-900 border-gray-300'
             }`}
           >
             {/* Most Popular Badge */}
