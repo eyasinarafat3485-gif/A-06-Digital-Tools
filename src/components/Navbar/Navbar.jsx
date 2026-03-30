@@ -1,7 +1,7 @@
 import React from 'react';
 import { CgShoppingCart } from 'react-icons/cg';
 
-const Navbar = () => {
+const Navbar = ({cartCount}) => {
     return (
         <div>
             <nav className="flex items-center justify-between px-2 md:px-16 py-4 bg-white shadow-sm">
@@ -21,8 +21,9 @@ const Navbar = () => {
                 </ul>
 
                 <div className="flex items-center gap-4">
-                    <button className="p-2 bg-gray-100 rounded-full hover:bg-gray-200">
-                        <CgShoppingCart size={20} />
+
+                    <button className='flex gap-2 bg-gray-100 cursor-pointer rounded p-2'>
+                        <CgShoppingCart size={20} />( {cartCount} )
                     </button>
                     <button className='btn'>Login</button>
                     <button className="bg-[#8B2CFF] text-white px-3 py-1 md:px-6 md:py-2 rounded-full font-medium md:font-semibold hover:bg-[#7006f1] transition cursor-pointer">Get Started    

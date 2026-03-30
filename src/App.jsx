@@ -26,7 +26,7 @@ function App() {
   return (
     <>
 
-      <Navbar></Navbar>
+      <Navbar cartCount={carts.length}></Navbar>
       <Banner></Banner>
       <StatsSection></StatsSection>
       <PremiumDigi></PremiumDigi>
