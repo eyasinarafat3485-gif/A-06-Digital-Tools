@@ -71,7 +71,7 @@ const Transparent = () => {
               ))}
             </ul>
 
-            <button className={`w-full py-3 rounded-xl font-bold transition-colors ${
+            <button className={`w-full py-3 cursor-pointer rounded-xl font-bold transition-colors ${
               plan.isPopular 
               ? 'bg-white text-purple-600 hover:bg-gray-100' 
               : 'bg-[#8B2CF5] text-white hover:bg-purple-700'

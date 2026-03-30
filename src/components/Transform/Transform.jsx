@@ -19,12 +19,12 @@ const Transform = () => {
         {/* Buttons Container */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           {/* White Button */}
-          <button className="bg-white text-purple-700 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors w-full sm:w-auto">
+          <button className="bg-white cursor-pointer text-purple-700 px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition-colors w-full sm:w-auto">
             Explore Products
           </button>
           
           {/* Outline Button */}
-          <button className="border border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors w-full sm:w-auto">
+          <button className="border cursor-pointer border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white/10 transition-colors w-full sm:w-auto">
             View Pricing
           </button>
         </div>
