@@ -30,7 +30,7 @@ function App() {
      <Steps></Steps>
      <Transparent></Transparent>
      <Transform></Transform>
-     {/* <Footer></Footer> */}
+     <Footer></Footer>
     </>
   )
 }
