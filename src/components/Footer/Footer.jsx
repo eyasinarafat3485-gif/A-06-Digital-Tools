@@ -3,11 +3,9 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#0f172a] text-gray-400 py-16 px-6 md:px-12 lg:px-24">
-      {/* Top Section */}
+        <footer className="bg-[#0f172a] text-gray-400 py-16 px-6 md:px-10 ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
         
-        {/* Brand Column */}
         <div className="lg:col-span-2">
           <h2 className="text-white text-3xl font-bold mb-4">DigiTools</h2>
           <p className="max-w-xs leading-relaxed">
@@ -16,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Links Columns */}
         <div>
           <h3 className="text-white font-semibold mb-4">Product</h3>
           <ul className="space-y-3">
@@ -47,7 +44,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Social Links */}
         <div>
           <h3 className="text-white font-semibold mb-4">Social Links</h3>
           <div className="flex space-x-4">
@@ -64,9 +60,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Divider */}
       <div className="border-t border-gray-800 pt-8 max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm">
-        <p>© 2026 Digitools. All rights reserved.</p>
+        <p>© 2026 Digitools. All rights reserved. Developed by Eyasin Arafat.</p>
         <div className="flex space-x-6 mt-4 md:mt-0">
           <a href="#" className="hover:text-white">Privacy Policy</a>
           <a href="#" className="hover:text-white">Terms of Service</a>

@@ -34,18 +34,15 @@ const Transparent = () => {
         <p className="text-gray-500">Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
       </div>
 
-      {/* মেইন গ্রিড কন্টেইনার */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto items-center">
         {plans.map((plan, index) => (
-          <div 
-            key={index} 
-            className={`relative p-8 rounded-3xl border-2 transition-all duration-300 ${
-              plan.isPopular 
-              ? 'bg-[#8B2CF5] text-white scale-105 shadow-xl border-transparent z-10' 
-              : 'bg-white text-slate-900 border-gray-300'
-            }`}
-          >
-            {/* Most Popular Badge */}
+          <div
+            key={index}
+            className={`relative p-8 rounded-3xl border-2 transition-all duration-300 ${plan.isPopular
+                ? 'bg-[#8B2CF5] text-white scale-105 shadow-xl border-transparent z-10'
+                : 'bg-white text-slate-900 border-gray-300'
+              }`}>
+
             {plan.isPopular && (
               <span className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-200 text-yellow-800 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider">
                 Most Popular
@@ -71,11 +68,10 @@ const Transparent = () => {
               ))}
             </ul>
 
-            <button className={`w-full py-3 cursor-pointer rounded-xl font-bold transition-colors ${
-              plan.isPopular 
-              ? 'bg-white text-purple-600 hover:bg-gray-100' 
-              : 'bg-[#8B2CF5] text-white hover:bg-purple-700'
-            }`}>
+            <button className={`w-full py-3 cursor-pointer rounded-xl font-bold transition-colors ${plan.isPopular
+                ? 'bg-white text-purple-600 hover:bg-gray-100'
+                : 'bg-[#8B2CF5] text-white hover:bg-purple-700'
+              }`}>
               {plan.name === 'Enterprise' ? 'Contact Sales' : 'Get Started Free'}
             </button>
           </div>

@@ -18,9 +18,9 @@ const getProducts = async () => {
 const productsPromise = getProducts()
 
 function App() {
-  const [activeTab, setActiveTab]= useState("products");
+  const [activeTab, setActiveTab] = useState("products");
   // console.log(activeTab)
-  const [carts, setCarts]= useState([]);
+  const [carts, setCarts] = useState([]);
   // console.log(carts)
 
   return (
@@ -30,13 +30,20 @@ function App() {
       <Banner></Banner>
       <StatsSection></StatsSection>
       <PremiumDigi></PremiumDigi>
-      {/* name of each tab group should be unique */}
-      <div className="tabs tabs-box justify-center bg-transparent mb-15">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Products" defaultChecked onClick={() => setActiveTab("products")}/>
+     
+      <div className="tabs justify-center bg-transparent mb-15">
 
-        <input type="radio" name="my_tabs_1" className="tab rounded-full w-30" aria-label="Cart" onClick={() => setActiveTab("cart")} />
-        
+      <button
+        onClick={() => setActiveTab("products")}
+        className={`px-6 py-2 rounded-full transition-all duration-300 border cursor-pointer ${activeTab === "products" ? "bg-[#8B2CFF] text-white" : "bg-transparent text-[#5B2C91]"}`}>
+        Products
+      </button>
+      <button
+        onClick={() => setActiveTab("cart")}
+        className={`px-6 py-2 rounded-full transition-all duration-300 border cursor-pointer ${activeTab === "cart" ? "bg-[#8B2CFF] text-white" : "bg-transparent text-[#5B2C91]"}`}>{`Cart (${carts.length})`}
+      </button>
       </div>
+
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
       {activeTab === "products" && <Products key={Products.id} productsPromise={productsPromise} carts={carts} setCarts={setCarts}></Products>}

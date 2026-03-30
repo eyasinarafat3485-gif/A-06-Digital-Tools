@@ -13,7 +13,7 @@
       "Grammar checker"
     ],
     "icon": "FaPenNib",
-    "image": "https://picsum.photos/300/200?random=11"
+    "image": "https://cdn.vectorstock.com/i/1000v/66/83/ai-writing-icon-line-style-vector-58236683.jpg"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
       "Commercial license"
     ],
     "icon": "FaPencilRuler",
-    "image": "https://picsum.photos/300/200?random=12"
+    "image": "https://cdn-icons-png.flaticon.com/512/6863/6863985.png"
   },
   {
     "id": 3,
@@ -45,7 +45,7 @@
       "No attribution"
     ],
     "icon": "FaCamera",
-    "image": "https://picsum.photos/300/200?random=13"
+    "image": "https://cdn-icons-png.flaticon.com/512/10438/10438387.png"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "Custom workflows"
     ],
     "icon": "FaCogs",
-    "image": "https://picsum.photos/300/200?random=14"
+    "image": "https://cdn-icons-png.flaticon.com/512/4634/4634740.png"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "Export to PDF"
     ],
     "icon": "FaFileAlt",
-    "image": "https://picsum.photos/300/200?random=15"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp9wdjkahwyOC_betEJZczt4NToTMhP58Gpg&s"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Analytics dashboard"
     ],
     "icon": "FaShareAlt",
-    "image": "https://picsum.photos/300/200?random=16"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_um3sfitkuITcSRQI0GHPCWJ7AXPxWiOw4A&s"
   },
   {
     "id": 7,
@@ -109,7 +109,7 @@
       "Performance tracking"
     ],
     "icon": "FaEnvelope",
-    "image": "https://picsum.photos/300/200?random=17"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTU2fdgS9Bt3M16yy_GSDJR8EVblJemKDv-A&s"
   },
   {
     "id": 8,
@@ -125,6 +125,6 @@
       "Competitor analysis"
     ],
     "icon": "FaSearch",
-    "image": "https://picsum.photos/300/200?random=18"
+    "image": "https://cdn-icons-png.flaticon.com/512/2835/2835542.png"
   }
 ]

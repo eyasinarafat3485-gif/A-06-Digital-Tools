@@ -1,17 +1,21 @@
 import React from 'react';
+import { toast } from 'react-toastify';
 
 const Cart = ({carts, setCarts}) => {
     // console.log(carts);
     const totalPrice= carts.reduce((sum, item) => sum + item.price, 0)
 
     const handlePayment=()=>{
-        setCarts([])
+        setCarts([]);
+        toast.success("Payment successfully done")
     }
     const handleDelete=(item)=>{
         // console.log(item)
         const filterArray=carts.filter(c => c.id != item.id)
         // console.log(filterArray)
-        setCarts(filterArray)
+        setCarts(filterArray);
+        
+        toast.error("Your product is deleted!")
     }
     return (
         <div>
@@ -31,7 +35,7 @@ const Cart = ({carts, setCarts}) => {
                         <div className='space-y-3'>
                             <h2 className='text-2xl font-bold'>{item.name}</h2>
                             <p className='font-semibold'>${item.price}</p>
-                            {/* <p>{item.description}</p> */}
+                            
                         </div>
                         </div>
 
