@@ -26,7 +26,7 @@ const Navbar = ({cartCount}) => {
                         <CgShoppingCart size={20} />( {cartCount} )
                     </button>
                     <button className='btn'>Login</button>
-                    <button className="bg-[#8B2CFF] text-white px-2 py-1 md:px-6 md:py-2 rounded-full text-[12px]  md:text-lg md:font-semibold hover:bg-[#7006f1] transition cursor-pointer">Get Started    
+                    <button className="bg-[#8B2CFF] text-white px-2 py-1.5 md:px-6 md:py-2 rounded-full text-[13px] font-medium md:text-lg md:font-semibold hover:bg-[#7006f1] transition cursor-pointer">Get Started    
                     </button>
                 </div>
             </nav>
