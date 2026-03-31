@@ -5,7 +5,6 @@ const Navbar = ({cartCount}) => {
     return (
         <div>
             <nav className="flex items-center justify-between px-2 md:px-16 py-4 bg-white shadow-sm">
-                {/* 1. Logo Section */}
                 <div className="flex items-center gap-2">
                     <div className="p-2 rounded-lg">
                         <img className='h-5 md:h-10 w-auto' src="DigiTools.png" alt="" />

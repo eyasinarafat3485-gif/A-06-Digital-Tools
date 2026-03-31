@@ -7,7 +7,6 @@ const Banner = () => {
 
                 <div className="space-y-6 ">
                     <div className="inline-flex items-center gap-2 px-4 py-3 rounded-full bg-blue-50 border border-blue-100 ">
-                        {/* <span className="text-sm w-4 h-4"></span> */}
                         <p className='h-2 w-2 bg-blue-700 rounded-full animate-ping '></p>
                         <span className="text-[#8B2CFF] font-medium text-sm">New: AI-Powered Tools Available</span>
                     </div>

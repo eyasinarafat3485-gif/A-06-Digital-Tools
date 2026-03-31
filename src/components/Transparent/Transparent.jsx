@@ -1,6 +1,5 @@
 import React from 'react';
 import { BiCheck } from 'react-icons/bi';
-// import { Check } from 'lucide-react';
 
 const Transparent = () => {
   const plans = [

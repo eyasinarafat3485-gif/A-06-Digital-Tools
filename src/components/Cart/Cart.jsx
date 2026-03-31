@@ -56,8 +56,6 @@ const Cart = ({carts, setCarts}) => {
                 </>
             }
            
-            
-            
         </div>
         </div>
     );
