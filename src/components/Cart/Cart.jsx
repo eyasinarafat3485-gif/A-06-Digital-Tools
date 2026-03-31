@@ -1,4 +1,5 @@
 import React from 'react';
+import { CgShoppingCart } from 'react-icons/cg';
 import { toast } from 'react-toastify';
 
 const Cart = ({carts, setCarts}) => {
@@ -22,7 +23,7 @@ const Cart = ({carts, setCarts}) => {
         <div className='border-2 border-gray-300 rounded-2xl w-[90%] mx-auto gap-5 p-5 md:p-10'>
             <h2 className='font-bold text-2xl'>Your Cart</h2>
             {
-                carts.length === 0 ? <p className='text-2xl text-center font-bold'>Cart is empty</p> : <>
+                carts.length === 0 ? <p className='text-2xl text-center font-bold'> <CgShoppingCart className='text-center mx-auto mb-2 md:mb-4' size={40}/> Cart is empty</p> : <>
                  <div>
             {
                 carts.map(item =>
