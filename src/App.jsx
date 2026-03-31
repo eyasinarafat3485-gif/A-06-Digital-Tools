@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Suspense, useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import Cart from './components/Cart/Cart'
@@ -33,6 +33,7 @@ function App() {
      
       <div className="tabs justify-center bg-transparent mb-15">
 
+      
       <button
         onClick={() => setActiveTab("products")}
         className={`px-6 py-2 rounded-full transition-all duration-300 border cursor-pointer ${activeTab === "products" ? "bg-[#8B2CFF] text-white" : "bg-transparent text-[#5B2C91]"}`}>
@@ -42,11 +43,13 @@ function App() {
         onClick={() => setActiveTab("cart")}
         className={`px-6 py-2 rounded-full transition-all duration-300 border cursor-pointer ${activeTab === "cart" ? "bg-[#8B2CFF] text-white" : "bg-transparent text-[#5B2C91]"}`}>{`Cart (${carts.length})`}
       </button>
+      
       </div>
-
+      <Suspense fallback={<span className="loading loading-spinner loading-3xl text-center"></span>}>
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
       {activeTab === "products" && <Products key={Products.id} productsPromise={productsPromise} carts={carts} setCarts={setCarts}></Products>}
+      </Suspense>
       <Steps></Steps>
       <Transparent></Transparent>
       <Transform></Transform>
@@ -54,5 +57,4 @@ function App() {
     </>
   )
 }
-
 export default App
