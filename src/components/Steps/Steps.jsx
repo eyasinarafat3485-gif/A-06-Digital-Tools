@@ -33,7 +33,7 @@ const Steps = () => {
         {stepsData.map((step) => (
           <div key={step.id} className="relative py-15 px-12 border border-gray-100 rounded-2xl shadow-sm bg-white hover:shadow-md transition-shadow">
             
-            <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs font-bold px-2 py-2 rounded-full">
+            <span className="absolute top-4 right-4 bg-purple-600 text-white text-xs font-bold px-2 py-1.5 rounded-full">
               {step.id}
             </span>
 
