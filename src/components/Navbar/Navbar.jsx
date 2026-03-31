@@ -7,8 +7,8 @@ const Navbar = ({cartCount}) => {
             <nav className="flex items-center justify-between px-2 md:px-16 py-4 bg-white shadow-sm">
                 {/* 1. Logo Section */}
                 <div className="flex items-center gap-2">
-                    <div className=" p-2 rounded-lg">
-                        <img className='h-7 md:h-10 w-auto' src="DigiTools.png" alt="" />
+                    <div className="p-2 rounded-lg">
+                        <img className='h-5 md:h-10 w-auto' src="DigiTools.png" alt="" />
                     </div> 
                 </div>
 
@@ -20,13 +20,13 @@ const Navbar = ({cartCount}) => {
                     <li className="cursor-pointer hover:text-[#7006f1]">FAQ</li>
                 </ul>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 md:gap-4">
 
-                    <button className='flex gap-2 bg-gray-100 cursor-pointer rounded p-2'>
+                    <button className='flex md:gap-2 gap-1 bg-gray-100 cursor-pointer hover:bg-gray-200 rounded p-2'>
                         <CgShoppingCart size={20} />( {cartCount} )
                     </button>
                     <button className='btn'>Login</button>
-                    <button className="bg-[#8B2CFF] text-white px-3 py-1 md:px-6 md:py-2 rounded-full font-medium md:font-semibold hover:bg-[#7006f1] transition cursor-pointer">Get Started    
+                    <button className="bg-[#8B2CFF] text-white px-2 py-1 md:px-6 md:py-2 rounded-full text-[14px] md:font-semibold hover:bg-[#7006f1] transition cursor-pointer">Get Started    
                     </button>
                 </div>
             </nav>
